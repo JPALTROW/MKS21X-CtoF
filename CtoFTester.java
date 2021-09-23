@@ -6,4 +6,8 @@ public class CtoFTester{
   public static void celsiusToFahrenheit(double cels) {
     return (9/5)*(cels)+32
   }
+
+  public static void fahrenheitToCelsius(double fahr){
+    return (fahr - 32)*5/9
+  }
 }
